@@ -1,0 +1,70 @@
+<div id="wapper">
+	<h1>Z Cash  Live Currency details in USD and EUR!</h1>
+	<img src="./../../assets/zcash.jpg" alt="zcash pic">
+	<div>
+		<h3><u>Quick Information about Z Cash :</u></h3>
+		<p>ZCash is a privacy driven cryptocurrency. It uses the Equihash as an algorithm, which is an asymmetric memory-hard Proof of Work algorithm based on the generalized birthday problem. It relies on high RAM requirements to bottleneck the generation of proofs and making ASIC development unfeasible. </p>
+	</div>
+	<table>
+			<thead>
+				<tr>
+					<td>Details</td>
+					<td>USD Currency</td>
+					<td>EUR Currency</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>From Symbol</td>
+					<td>{{ fromSymbolusd }}</td>
+					<td>{{ fromSymboleur }}</td>
+				</tr>
+				<tr>
+					<td>To the Symbol coverted</td>
+					<td>{{ toSymbolusd }}</td>
+					<td>{{ toSymboleur }}</td>
+				</tr>
+				<tr>
+					<td>Price</td>
+					<td>{{ usdPrice }}</td>
+					<td>{{ eurPrice }}</td>
+				</tr>
+				<tr>
+					<td>Volume 24Hours</td>
+					<td>{{ volumeHourUsd }}</td>
+					<td>{{ volumeHourEur }}</td>
+				</tr>
+				<tr>
+					<td>Volume 24Hours currency value</td>
+					<td>{{ volumeHourToUsd }}</td>
+					<td>{{ volumeHourToEur }}</td>
+				</tr>
+				<tr>
+					<td>Market Capacity</td>
+					<td>{{ marketCapUsd }}</td>
+					<td>{{ marketCapEur }}</td>
+				</tr>
+				<tr>
+					<td>Change in 24Hours</td>
+					<td>{{ changepctUsd }}%</td>
+					<td>{{ changepctEur }}%</td>
+				</tr>
+				<tr>
+					<td>Last Trade</td>
+					<td>{{ lastVolumeUsd }}({{ lastVolumeToUsd }})/{{ lastMarketUsd }}</td>
+					<td>{{ lastVolumeEur }}({{ lastVolumeToEur }})/{{ lastMarketEur }}</td>
+				</tr>
+			</tbody>
+	</table>
+</div>
+
+
+
+
+
+
+
+
+
+
+

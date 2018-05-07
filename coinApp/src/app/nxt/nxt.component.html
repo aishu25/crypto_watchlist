@@ -1,0 +1,71 @@
+<div id="wapper">
+	<h1>Nxt  Live Currency details in USD and EUR!</h1>
+	<img src="./../../assets/nxt.jpg" alt="NXT pic">
+	<div>
+		<h3><u>Quick Information about Nxt :</u></h3>
+		<p>Nxt is considered a 2nd generation crypto currency. With all the alt coins that alter parametes such as hashing mechanism, time between blocks, starting difficulty, and so on, Nxt brings much much more to the table and was designed this way for a number of reasons. It's proof of stake model makes it less susceptible to 51% attacks whilst it is designed to support large transaction volumes, something which the traditional Bitcoin and its clones have as a potential flaw. Nxt allows the creation and exchange of custom tokens, coloured coins and assets on the Blockchain.</p>
+	</div>
+	<table>
+			<thead>
+				<tr>
+					<td>Details</td>
+					<td>USD Currency</td>
+					<td>EUR Currency</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>From Symbol</td>
+					<td>{{ fromSymbolusd }}</td>
+					<td>{{ fromSymboleur }}</td>
+				</tr>
+				<tr>
+					<td>To the Symbol coverted</td>
+					<td>{{ toSymbolusd }}</td>
+					<td>{{ toSymboleur }}</td>
+				</tr>
+				<tr>
+					<td>Price</td>
+					<td>{{ usdPrice }}</td>
+					<td>{{ eurPrice }}</td>
+				</tr>
+				<tr>
+					<td>Volume 24Hours</td>
+					<td>{{ volumeHourUsd }}</td>
+					<td>{{ volumeHourEur }}</td>
+				</tr>
+				<tr>
+					<td>Volume 24Hours currency value</td>
+					<td>{{ volumeHourToUsd }}</td>
+					<td>{{ volumeHourToEur }}</td>
+				</tr>
+				<tr>
+					<td>Market Capacity</td>
+					<td>{{ marketCapUsd }}</td>
+					<td>{{ marketCapEur }}</td>
+				</tr>
+				<tr>
+					<td>Change in 24Hours</td>
+					<td>{{ changepctUsd }}%</td>
+					<td>{{ changepctEur }}%</td>
+				</tr>
+				<tr>
+					<td>Last Trade</td>
+					<td>{{ lastVolumeUsd }}({{ lastVolumeToUsd }})/{{ lastMarketUsd }}</td>
+					<td>{{ lastVolumeEur }}({{ lastVolumeToEur }})/{{ lastMarketEur }}</td>
+				</tr>
+			</tbody>
+	</table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+

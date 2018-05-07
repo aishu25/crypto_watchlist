@@ -1,0 +1,71 @@
+<div id="wapper">
+	<h1>Lite Coin  Live Currency details in USD and EUR!</h1>
+	<img src="./../../assets/litecoin.jpg" alt="litecoin pic">
+	<div>
+		<h3><u>Quick Information about Lite Coin :</u></h3>
+		<p>Litecoin LTC - provides faster transaction confirmations (2.5 minutes on average) and uses a memory-hard, scrypt-based mining proof-of-work algorithm to target the regular computers and GPUs most people already have - which are its main differentials to Bitcoin. The Litecoin network is scheduled to produce 84 million currency units with a halving in reward every four years just like bitcoin. The coin was created by a Google employee, Charles Lee. Litecoin is in second spot to Bitcoin and has spawned numerous clones - however it has a solid base of support and dedicated development team.</p>
+	</div>
+	<table>
+			<thead>
+				<tr>
+					<td>Details</td>
+					<td>USD Currency</td>
+					<td>EUR Currency</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>From Symbol</td>
+					<td>{{ fromSymbolusd }}</td>
+					<td>{{ fromSymboleur }}</td>
+				</tr>
+				<tr>
+					<td>To the Symbol coverted</td>
+					<td>{{ toSymbolusd }}</td>
+					<td>{{ toSymboleur }}</td>
+				</tr>
+				<tr>
+					<td>Price</td>
+					<td>{{ usdPrice }}</td>
+					<td>{{ eurPrice }}</td>
+				</tr>
+				<tr>
+					<td>Volume 24Hours</td>
+					<td>{{ volumeHourUsd }}</td>
+					<td>{{ volumeHourEur }}</td>
+				</tr>
+				<tr>
+					<td>Volume 24Hours currency value</td>
+					<td>{{ volumeHourToUsd }}</td>
+					<td>{{ volumeHourToEur }}</td>
+				</tr>
+				<tr>
+					<td>Market Capacity</td>
+					<td>{{ marketCapUsd }}</td>
+					<td>{{ marketCapEur }}</td>
+				</tr>
+				<tr>
+					<td>Change in 24Hours</td>
+					<td>{{ changepctUsd }}%</td>
+					<td>{{ changepctEur }}%</td>
+				</tr>
+				<tr>
+					<td>Last Trade</td>
+					<td>{{ lastVolumeUsd }}({{ lastVolumeToUsd }})/{{ lastMarketUsd }}</td>
+					<td>{{ lastVolumeEur }}({{ lastVolumeToEur }})/{{ lastMarketEur }}</td>
+				</tr>
+			</tbody>
+	</table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+

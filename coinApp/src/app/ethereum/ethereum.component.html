@@ -1,0 +1,70 @@
+<div id="wapper">
+	<h1>Ethereum  Live Currency details in USD and EUR!</h1>
+	<img src="./../../assets/ethereum.jpg" alt="Ethereum pic">
+	<div>
+		<h3><u>Quick Information about Ethereum :</u></h3>
+		<p>Ethereum is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference. In the Ethereum protocol and blockchain there is a price for each operation. The general idea is, in order to have things transferred or executed by the network, you have to consume or burn Gas. The cryptocurrency is called Ether and is used to pay for computation time and for transaction fees.</p>
+	</div>
+	<table>
+			<thead>
+				<tr>
+					<td>Details</td>
+					<td>USD Currency</td>
+					<td>EUR Currency</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>From Symbol</td>
+					<td>{{ fromSymbolusd }}</td>
+					<td>{{ fromSymboleur }}</td>
+				</tr>
+				<tr>
+					<td>To the Symbol coverted</td>
+					<td>{{ toSymbolusd }}</td>
+					<td>{{ toSymboleur }}</td>
+				</tr>
+				<tr>
+					<td>Price</td>
+					<td>{{ usdPrice }}</td>
+					<td>{{ eurPrice }}</td>
+				</tr>
+				<tr>
+					<td>Volume 24Hours</td>
+					<td>{{ volumeHourUsd }}</td>
+					<td>{{ volumeHourEur }}</td>
+				</tr>
+				<tr>
+					<td>Volume 24Hours currency value</td>
+					<td>{{ volumeHourToUsd }}</td>
+					<td>{{ volumeHourToEur }}</td>
+				</tr>
+				<tr>
+					<td>Market Capacity</td>
+					<td>{{ marketCapUsd }}</td>
+					<td>{{ marketCapEur }}</td>
+				</tr>
+				<tr>
+					<td>Change in 24Hours</td>
+					<td>{{ changepctUsd }}%</td>
+					<td>{{ changepctEur }}%</td>
+				</tr>
+				<tr>
+					<td>Last Trade</td>
+					<td>{{ lastVolumeUsd }}({{ lastVolumeToUsd }})/{{ lastMarketUsd }}</td>
+					<td>{{ lastVolumeEur }}({{ lastVolumeToEur }})/{{ lastMarketEur }}</td>
+				</tr>
+			</tbody>
+	</table>
+</div>
+
+
+
+
+
+
+
+
+
+
+

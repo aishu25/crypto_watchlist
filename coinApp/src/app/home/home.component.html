@@ -1,0 +1,30 @@
+<div id="wapper">
+	<img src="./../../assets/home.jpg" alt="Home pic">
+	<img src="./../../assets/cash.jpg" alt="cash pic">
+	<img src="./../../assets/coins.jpg" alt="coins pic">
+	<img src="./../../assets/cash-coins.jpg" alt="cash_coins pic">
+	<div>
+		<h3>To know the exact convertion about the amount you inverst, enter the amount below : </h3>
+		<form>
+			<label for="amount">Enter amount : <input type="text" name="amount" [(ngModel)]="amount"></label><br>
+			<label for="coin_type">Coin Type : </label>
+			<select name="coin_type" [(ngModel)]="coin_type">
+				<option value="BTC">Bit Coin</option>
+				<option value="ETH">Ethereum</option>
+				<option value="LTG">Lite Coin</option>
+				<option value="DASH">Digital Cash</option>
+				<option value="XMRG">Monero</option>
+				<option value="NXT">NXT</option>
+				<option value="ZCG">Z Cash</option>
+				<option value="XRP">ripple</option>
+			</select><br>
+			<button type="submit" value="" (click)="getValue()">Get the value</button>
+		</form>
+		<div *ngIf="results_usd">
+			<p>The number of {{ coin_type }} coins you can buy with ${{ amount }} is = {{ results_usd }} coins</p>
+		</div>
+		<div *ngIf="results_eur">
+			<p>The number of {{ coin_type }} coins you can buy with €{{ amount }} is = {{ results_eur }} coins</p>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,67 @@
+#wapper{
+    border: 1px black solid;
+    font-family: Comic Sans MS, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+
+u { 
+    text-decoration: underline;
+}
+
+table, td{
+  border: 1px solid black;
+  border-collapse: collapse; 
+  padding: 8px;
+}
+a, input {
+  margin: 10px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+input[type=text]{
+    width: 10%;
+    padding: 10px;
+    color: white;
+    background-color: #3CBC8D;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3CBC8D;
+    color: white;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+select{
+    width: 20%;
+    height: 30px;
+    border: 1px solid #41533f;
+    padding: 0px 10px 0px 10px;
+    color: #41533f;
+    margin: 20px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
